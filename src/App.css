@@ -1,0 +1,64 @@
+body {
+  background-color: #ffeef8;
+  font-family: 'Indie Flower', cursive;
+}
+
+.container-bg {
+  background: linear-gradient(145deg, #fff0f9, #df93bd, #fff0f9);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(255, 105, 180, 0.2);
+}
+.card {
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #fff0f9, #ffd6ec);
+  box-shadow: 0 10px 25px rgba(255, 105, 180, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-img-top {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #ff69b4;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+  color: #ff1493;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #7a297f;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #d63384;
+}
+
+.footer img {
+  margin-top: 10px;
+  width: 60px;
+  border-radius: 50%;
+  border: 2px solid #ffb3d9;
+}
