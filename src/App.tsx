@@ -6,9 +6,9 @@ import Description from './components/Description';
 import Image from './components/Image';
 import './App.css';
 
-const firstName = 'Khouloud';
+const firstName: string = 'Khouloud';
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <Container className="my-5 d-flex flex-column align-items-center container-bg">
       <Card style={{ width: '22rem' }} className="shadow">
@@ -25,7 +25,7 @@ const App = () => {
         <p>
           {firstName && (
             <img
-              src="https://media.giphy.com/media/J2SSdlShBVRnxLyb1p/giphy.gif?cid=ecf05e47lwnygdan2gzfkfqo47uahfb8jmd8slb1c9bp5nbh&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+              src="https://media.giphy.com/media/J2SSdlShBVRnxLyb1p/giphy.gif"
               alt="Waving"
             />
           )}

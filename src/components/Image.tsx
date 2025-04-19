@@ -1,7 +1,7 @@
 import React from 'react';
 import product from '../product';
 
-const Image = () => (
+const Image: React.FC = () => (
   <img
     src={product.image}
     alt={product.name}
